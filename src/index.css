@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-gold-300: #e3d4b0;
+  --color-gold-400: #cfb991;
+  --color-gold-500: #b89b5e;
+  --color-gold-600: #8e6f3e;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-950 font-sans text-slate-300 antialiased;
+  }
+  ::selection {
+    @apply bg-gold-400 text-slate-950;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold-400;
+  }
+}
+
+/* Subtle grid backdrop used behind the hero */
+.hero_grid {
+  background-image:
+    linear-gradient(to right, rgb(148 163 184 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(148 163 184 / 0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
+}
