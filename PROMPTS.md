@@ -5,7 +5,7 @@ Time-stamped log of prompts given to Claude Code for this project.
 ---
 
 ## 2026-11-08 ~14:30 EST — Portfolio requirements
-> what i need to create is this: [assignment requirements: Home/Landing page, Projects/Awards showcase (3+), Skills section with proficiency indicators, Contact information, Responsive design (3 viewport sizes), Professional polish]
+> what i need to create is a personal portfolio webpage, with a Home/landing page, a place for me to put projects or awards, and a skills section. I also want a place to give my contact information, and the website needs to have a responsive deisgn with 3 viewport sizes, and i want it to look as professional as possible
 >
 > As for completing this, due it being a personal portfolio, I need you to ask when you need my own information. The goal is for this to be a professional portfolio
 
@@ -35,3 +35,6 @@ Time-stamped log of prompts given to Claude Code for this project.
 
 ## 2026-11-08 15:18 EST — Tools update
 > add COLAB to tools I use section, as well as VS CODE
+
+## 2026-11-08 15:22 EST — Public files check
+> is there any public files that shouldn't be public right now
